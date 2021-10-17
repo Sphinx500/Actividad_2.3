@@ -1,0 +1,22 @@
+$def with(result)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regresion Lineal</title>
+</head>
+<body>
+    <h1>Regresion Lineal</h1>
+
+    <form method="post">
+        <label>X</label> <br>
+        <input type="number" name="x" id="x">
+        <input type="submit" value="predecir">
+    </form>
+
+    $if result!=None:
+        $result
+</body>
+</html>
